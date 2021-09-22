@@ -8,6 +8,7 @@
     - [5.介绍下 Set、Map的区别？](#5介绍下-setmap的区别)
     - [6.ECMAScript 6 怎么写 class ，为何会出现 class？](#6ecmascript-6-怎么写-class-为何会出现-class)
     - [7.Promise构造函数是同步执行还是异步执行，那么 then 方法呢？](#7promise构造函数是同步执行还是异步执行那么-then-方法呢)
+      - [宏任务与微任务的执行顺序](#宏任务与微任务的执行顺序)
     - [8.setTimeout、Promise、Async/Await 的区别](#8settimeoutpromiseasyncawait-的区别)
     - [9.promise有几种状态，什么时候会进入catch？](#9promise有几种状态什么时候会进入catch)
     - [10.使用结构赋值，实现两个变量的值的交换](#10使用结构赋值实现两个变量的值的交换)
@@ -165,6 +166,23 @@ Promise new的时候会**立即执行**里面的代码 then是**微任务** 会�
      //124536
 ```
 
+##### 宏任务与微任务的执行顺序
+- 宏任务
+  **是指消息队列中的等待被主线程执行的事件**，宏任务执行时都会重新创建栈，然后调用宏任务中的函数，栈也会随着变化，但宏任务执行结束时，栈也会随之销毁。
+  
+  包括 整体代码*script，setTimeout，setInterval ，setImmediate，I/O，UI renderingnew ，'Promise*'*
+- 微任务
+  可以把微任务看成是一个**需要异步执行的函数，执行时机是在主函数执行结束之后、当前宏任务结束之前**
+  
+  包括 Promises.(then catch finally)，process.nextTick， MutationObserver
+  
+  微任务是基于消息队列、事件循环、UI 主线程还有堆栈而来的
+- 区别
+  宏任务和微任务的区别在于在**事件循环机制中，执行的机制不同**
+  
+  每次执行完所有的同步任务后，会在任务队列中取出异步任务，**先将所有微任务执行完成后，才会执行宏任务**
+  所以可以得出结论， **微任务会在宏任务之前执行**。
+  我们在工作常用到的宏任务是 setTimeout，而微任务是 Promise.then
 #### 8.setTimeout、Promise、Async/Await 的区别
 
 事件循环中分为宏任务队列和微任务队列
