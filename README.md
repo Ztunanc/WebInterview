@@ -2,10 +2,9 @@
 
 如果对于有所帮助，可以给个star。有纰漏的地方，欢迎给我们提PR。
 
-如果想获取本Repo的PDF版本，可以用微信扫描下方二维码，回复 “pdf” ，即可获取。如果二维码加载不出来，可以在微信搜索公众号 “前端技术星球”，回复 “pdf” ，即可获取PDF版本。
-<center><img src ="https://gitee.com/WebInterviewHub/WebInterview/raw/master/imgs/%E5%89%8D%E7%AB%AF.jpg" /></center>
+[toc]
 
-## BOM&DOM
+# BOM&DOM
 * [1.BOM事件?](./BOM%26DOM.md#1bom事件)
 * [2.常见BOM事件?](./BOM%26DOM.md#2常见bom事件)
 * [3.BOM事件处理程序?](./BOM%26DOM.md#3bom事件处理程序)
@@ -82,7 +81,7 @@
  * [参考链接](./JS基础.md#参考链接)
 
 
-## ES6
+# ES6
 
 * [1.es5和es6的区别，说一下你所知道的es6](./ES6.md#1es5和es6的区别说一下你所知道的es6)
 * [2.var、let、const之间的区别](./ES6.md#2varletconst之间的区别)
@@ -100,7 +99,7 @@
 * [参考资料](./ES6.md#参考资料)
 
 
-## Ajax
+# Ajax
 
 * [1.什么是ajax？ajax作用是什么？](./Ajax.md#1什么是ajaxajax作用是什么)
 * [2.为什么要用ajax：](./Ajax.md#2为什么要用ajax)
@@ -180,7 +179,7 @@
 * [16.disk cache](./HTTP2%26HTTP缓存.md#16disk-cache)
 
 
-## 跨域
+# 跨域
 * [1.什么是跨域](./跨域.md#1什么是跨域)
 * [2.同源策略](./跨域.md#2同源策略)
 * [3.为什么有同源策略](./跨域.md#3为什么有同源策略)
@@ -195,7 +194,7 @@
 * [2、 vue框架跨域](./跨域.md#2-vue框架跨域)
 * [11.webscoket协议跨域](./跨域.md#11webscoket协议跨域)
 
-## 计算机基础
+# 计算机基础
 * [1.CPU基础](./计算机基础.md#1cpu基础)
 * [2.CPU与主存](./计算机基础.md#2cpu与主存)
 * [3.程序等同数据](./计算机基础.md#3程序等同数据)
@@ -223,7 +222,7 @@
 * [25.什么是一元和二元操作](./计算机基础.md#25什么是一元和二元操作)
 
 
-## 数据结构与算法
+# 数据结构与算法
 * [1. 什么是复杂度分析 ？](./数据结构与算法.md#1-什么是复杂度分析-)
 * [2. 为什么要进行复杂度分析 ？](./数据结构与算法.md#2-为什么要进行复杂度分析-)
 * [3. 如何进行复杂度分析 ？](./数据结构与算法.md#3-如何进行复杂度分析-)
@@ -304,7 +303,7 @@
 * [17.webpack中的模块解析规则具体实现](./webpack.md#17webpack中的模块解析规则具体实现)
 * [18.什么是模块热替换](./webpack.md#18什么是模块热替换)
 
-## Glup_Grunt
+# Glup_Grunt
 * [1.Grunt的特点](./Glup_Grunt.md#1grunt的特点)
 * [2.Gulp和Grunt的异同点](./Glup_Grunt.md#2gulp和grunt的异同点)
 * [3.差异和不同](./Glup_Grunt.md#3差异和不同)
@@ -318,7 +317,7 @@
 * [参考链接](./Glup_Grunt.md#参考链接)
 
 
-## Angular
+# Angular
 
 * [1.什么是Angular 7？与AngularJS有何不同？](./Angular.md#1什么是angular-7与angularjs有何不同)
 * [2.什么是Angular框架？](./Angular.md#2什么是angular框架)
@@ -332,7 +331,7 @@
 * [10.什么是数据绑定？在Angular中有几种方式?](./Angular.md#10什么是数据绑定在angular中有几种方式)
 * [参考链接](./Angular.md#参考链接)
 
-## Vue
+# Vue
 
 * [1.vue 优点？](./Vue.md#1vue-优点)
 * [2.vue 父组件向子组件传递数据？](./Vue.md#2vue-父组件向子组件传递数据)
@@ -381,7 +380,7 @@
 * [45.开发中常用的指令有哪些?](./Vue.md#45开发中常用的指令有哪些)
 * [参考链接](./Vue.md#参考链接)
 
-## jQuery
+# jQuery
 
 * [1.jQuery库中的$()是什么？](./jQuery.md#1jquery库中的是什么)
 * [2.网页上有5个div元素，如何使用 jQuery来选择它们？](./jQuery.md#2网页上有5个div元素如何使用-jquery来选择它们)
@@ -396,7 +395,7 @@
 * [参考资料](./jQuery.md#参考资料)
 
 
-## React
+# React
 * [1.什么是React？](./React.md#1什么是react)
 * [2.React有什么特点？](./React.md#2react有什么特点)
 * [3.列出React的一些主要优点。](./React.md#3列出react的一些主要优点)
