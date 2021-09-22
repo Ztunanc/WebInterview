@@ -202,10 +202,10 @@ async await 是用来解决异步的，async函数是Generator函数的语法糖
 async函数返回一个 Promise 对象，可以使用then方法添加回调函数
 当函数执行的时候，一旦遇到await就会先返回，等到异步操作完成，再接着执行函数体内后面的语句
 async较Generator的优势：
-（1）内置执行器。Generator 函数的执行必须依靠执行器，而 Aysnc 函数自带执行器，调用方式跟普通函数的调用一样
-（2）更好的语义。async 和 await 相较于 * 和 yield 更加语义化　　
-（3）更广的适用性。yield命令后面只能是 Thunk 函数或 Promise对象，async函数的await后面可以是Promise也可以是原始类型的值
-（4）返回值是 Promise。async 函数返回的是 Promise 对象，比Generator函数返回的Iterator对象方便，可以直接使用 then() 方法进行调用
+- （1）内置执行器。Generator 函数的执行必须依靠执行器，而 Aysnc 函数自带执行器，调用方式跟普通函数的调用一样
+- （2）更好的语义。async 和 await 相较于 * 和 yield 更加语义化　　
+- （3）更广的适用性。yield命令后面只能是 Thunk 函数或 Promise对象，async函数的await后面可以是Promise也可以是原始类型的值
+- （4）返回值是 Promise。async 函数返回的是 Promise 对象，比Generator函数返回的Iterator对象方便，可以直接使用 then() 方法进行调用
 
 #### 参考资料
 
