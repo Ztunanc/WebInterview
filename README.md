@@ -375,6 +375,7 @@
 * [5.介绍下 Set、Map的区别？](./ES6.md#5介绍下-setmap的区别)
 * [6.ECMAScript 6 怎么写 class ，为何会出现 class？](./ES6.md#6ecmascript-6-怎么写-class-为何会出现-class)
 * [7.Promise构造函数是同步执行还是异步执行，那么 then 方法呢？](./ES6.md#7promise构造函数是同步执行还是异步执行那么-then-方法呢)
+  * [宏任务与微任务的执行顺序](./ES6.md#宏任务与微任务的执行顺序)
 * [8.setTimeout、Promise、Async/Await 的区别](./ES6.md#8settimeoutpromiseasyncawait-的区别)
 * [9.promise有几种状态，什么时候会进入catch？](./ES6.md#9promise有几种状态什么时候会进入catch)
 * [10.使用结构赋值，实现两个变量的值的交换](./ES6.md#10使用结构赋值实现两个变量的值的交换)
