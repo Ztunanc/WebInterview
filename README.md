@@ -81,28 +81,38 @@
  * [28.解释原型继承是如何工作的](./JS基础.md#28解释原型继承是如何工作的)
  * [参考链接](./JS基础.md#参考链接)
 
-# webpack
-* [1.webpack与grunt、gulp的不同？](./webpack.md#1webpack与gruntgulp的不同)
-* [2.与webpack类似的工具还有哪些？谈谈你为什么最终选择（或放弃）使用webpack？](./webpack.md#2与webpack类似的工具还有哪些谈谈你为什么最终选择或放弃使用webpack)
-* [3.有哪些常见的Loader？他们是解决什么问题的？](./webpack.md#3有哪些常见的loader他们是解决什么问题的)
-* [4.有哪些常见的Plugin？他们是解决什么问题的？](./webpack.md#4有哪些常见的plugin他们是解决什么问题的)
-* [5.Loader和Plugin的不同？](./webpack.md#5loader和plugin的不同)
-* [不同的作用](./webpack.md#不同的作用)
-* [不同的用法](./webpack.md#不同的用法)
-* [6.webpack的构建流程是什么?从读取配置到输出文件这个过程尽量说全](./webpack.md#6webpack的构建流程是什么从读取配置到输出文件这个过程尽量说全)
-* [7.是否写过Loader和Plugin？描述一下编写loader或plugin的思路？](./webpack.md#7是否写过loader和plugin描述一下编写loader或plugin的思路)
-* [8.webpack的热更新是如何做到的？说明其原理？](./webpack.md#8webpack的热更新是如何做到的说明其原理)
-* [原理：](./webpack.md#原理)
-* [9.如何利用webpack来优化前端性能？（提高性能和体验）](./webpack.md#9如何利用webpack来优化前端性能提高性能和体验)
-* [10.如何提高webpack的构建速度？](./webpack.md#10如何提高webpack的构建速度)
-* [11.怎么配置单页应用？怎么配置多页应用？](./webpack.md#11怎么配置单页应用怎么配置多页应用)
-* [12.npm打包时需要注意哪些？如何利用webpack来更好的构建？](./webpack.md#12npm打包时需要注意哪些如何利用webpack来更好的构建)
-* [13.如何在vue项目中实现按需加载？](./webpack.md#13如何在vue项目中实现按需加载)
-* [14.webpack是解决什么问题而生的?](./webpack.md#14webpack是解决什么问题而生的)
-* [15.如何配置多入口文件?](./webpack.md#15如何配置多入口文件)
-* [16.webpack中的模块解析规则](./webpack.md#16webpack中的模块解析规则)
-* [17.webpack中的模块解析规则具体实现](./webpack.md#17webpack中的模块解析规则具体实现)
-* [18.什么是模块热替换](./webpack.md#18什么是模块热替换)
+
+## ES6
+
+* [1.es5和es6的区别，说一下你所知道的es6](./ES6.md#1es5和es6的区别说一下你所知道的es6)
+* [2.var、let、const之间的区别](./ES6.md#2varletconst之间的区别)
+* [3.使用箭头函数应注意什么？](./ES6.md#3使用箭头函数应注意什么)
+* [4.ES6的模板字符串有哪些新特性？并实现一个类模板字符串的功能](./ES6.md#4es6的模板字符串有哪些新特性并实现一个类模板字符串的功能)
+* [5.介绍下 Set、Map的区别？](./ES6.md#5介绍下-setmap的区别)
+* [6.ECMAScript 6 怎么写 class ，为何会出现 class？](./ES6.md#6ecmascript-6-怎么写-class-为何会出现-class)
+* [7.Promise构造函数是同步执行还是异步执行，那么 then 方法呢？](./ES6.md#7promise构造函数是同步执行还是异步执行那么-then-方法呢)
+  * [宏任务与微任务的执行顺序](./ES6.md#宏任务与微任务的执行顺序)
+* [8.setTimeout、Promise、Async/Await 的区别](./ES6.md#8settimeoutpromiseasyncawait-的区别)
+* [9.promise有几种状态，什么时候会进入catch？](./ES6.md#9promise有几种状态什么时候会进入catch)
+* [10.使用结构赋值，实现两个变量的值的交换](./ES6.md#10使用结构赋值实现两个变量的值的交换)
+* [11.Promise 中reject 和 catch 处理上有什么区别](./ES6.md#11promise-中reject-和-catch-处理上有什么区别)
+* [12.理解 async/await以及对Generator的优势](./ES6.md#12理解-asyncawait以及对generator的优势)
+* [参考资料](./ES6.md#参考资料)
+
+
+## Ajax
+
+* [1.什么是ajax？ajax作用是什么？](./Ajax.md#1什么是ajaxajax作用是什么)
+* [2.为什么要用ajax：](./Ajax.md#2为什么要用ajax)
+* [3.AJAX最大的特点是什么。](./Ajax.md#3ajax最大的特点是什么)
+* [4.请介绍一下XMLHttprequest对象。](./Ajax.md#4请介绍一下xmlhttprequest对象)
+* [5.AJAX技术体系的组成部分有哪些。](./Ajax.md#5ajax技术体系的组成部分有哪些)
+* [6.工作当中会和后台交互吗？ 那你能说说封装好的 ajax里的几个参数吗 ？](./Ajax.md#6工作当中会和后台交互吗-那你能说说封装好的-ajax里的几个参数吗-)
+* [7.Ajax的实现流程是怎样的？](./Ajax.md#7ajax的实现流程是怎样的)
+* [8.AJAX请求总共有多少种CALLBACK](./Ajax.md#8ajax请求总共有多少种callback)
+* [9.AJAX有哪些有点和缺点？](./Ajax.md#9ajax有哪些有点和缺点)
+* [10.Ajax 解决浏览器缓存问题？](./Ajax.md#10ajax-解决浏览器缓存问题)
+* [参考链接](./Ajax.md#参考链接)
 
 # https
 * [1.https的访问过程](./https.md#1https的访问过程)
@@ -185,26 +195,6 @@
 * [2、 vue框架跨域](./跨域.md#2-vue框架跨域)
 * [11.webscoket协议跨域](./跨域.md#11webscoket协议跨域)
 
-# Git
-* [1.列举工作中常用的几个git命令？](./Git.md#1列举工作中常用的几个git命令) 
-* [2. 提交时发生冲突，你能解释冲突是如何产生的吗？你是如何解决的？](./Git.md#2-提交时发生冲突你能解释冲突是如何产生的吗你是如何解决的)
-* [3. 如果本次提交误操作，如何撤销？](./Git.md#3-如果本次提交误操作如何撤销)
-* [4. 如果我想修改提交的历史信息，应该用什么命令？](./Git.md#4-如果我想修改提交的历史信息应该用什么命令)
-* [第二步：执行命令git rebase –i HEAD~3，会把前3次的提交记录按照倒叙列出来；](./Git.md#第二步执行命令git-rebase-i-head3会把前3次的提交记录按照倒叙列出来)
-* [5. 你使用过git stash命令吗？你一般什么情况下会使用它？](./Git.md#5-你使用过git-stash命令吗你一般什么情况下会使用它)
-* [6. 如何查看分支提交的历史记录？查看某个文件的历史记录呢？](./Git.md#6-如何查看分支提交的历史记录查看某个文件的历史记录呢)
-* [7. 能不能说一下git fetch和git pull命令之间的区别？](./Git.md#7-能不能说一下git-fetch和git-pull命令之间的区别)
-* [8. 使用过git merge和git rebase吗？它们之间有什么区别？](./Git.md#8-使用过git-merge和git-rebase吗它们之间有什么区别)
-* [9. 能说一下git系统中HEAD、工作树和索引之间的区别吗？](./Git.md#9-能说一下git系统中head工作树和索引之间的区别吗)
-* [10. 之前项目中是使用的GitFlow工作流程吗？它有什么好处？](./Git.md#10-之前项目中是使用的gitflow工作流程吗它有什么好处)
-* [11. 使用过git cherry-pick，有什么作用？](./Git.md#11-使用过git-cherry-pick有什么作用)
-* [12. git跟其他版本控制器有啥区别？](./Git.md#12-git跟其他版本控制器有啥区别)
-* [13.我们在本地工程常会修改一些配置文件，这些文件不需要被提交，而我们又不想每次执行git status时都让这些文件显示出来，我们该如何操作？](./Git.md#13我们在本地工程常会修改一些配置文件这些文件不需要被提交而我们又不想每次执行git-status时都让这些文件显示出来我们该如何操作)
-* [14. 如何把本地仓库的内容推向一个空的远程仓库？](./Git.md#14-如何把本地仓库的内容推向一个空的远程仓库)
-* [15.如在 Git 恢复先前的提交?](./Git.md#15如在-git-恢复先前的提交)
-* [16.什么是“git cherry-pick”?](./Git.md#16什么是git-cherry-pick)
-
-
 ## 计算机基础
 * [1.CPU基础](./计算机基础.md#1cpu基础)
 * [2.CPU与主存](./计算机基础.md#2cpu与主存)
@@ -272,35 +262,47 @@
 * [20.CSS选择符优化](./性能优化.md#20css选择符优化)
 
 
-## Angular
+# Git
+* [1.列举工作中常用的几个git命令？](./Git.md#1列举工作中常用的几个git命令) 
+* [2. 提交时发生冲突，你能解释冲突是如何产生的吗？你是如何解决的？](./Git.md#2-提交时发生冲突你能解释冲突是如何产生的吗你是如何解决的)
+* [3. 如果本次提交误操作，如何撤销？](./Git.md#3-如果本次提交误操作如何撤销)
+* [4. 如果我想修改提交的历史信息，应该用什么命令？](./Git.md#4-如果我想修改提交的历史信息应该用什么命令)
+* [第二步：执行命令git rebase –i HEAD~3，会把前3次的提交记录按照倒叙列出来；](./Git.md#第二步执行命令git-rebase-i-head3会把前3次的提交记录按照倒叙列出来)
+* [5. 你使用过git stash命令吗？你一般什么情况下会使用它？](./Git.md#5-你使用过git-stash命令吗你一般什么情况下会使用它)
+* [6. 如何查看分支提交的历史记录？查看某个文件的历史记录呢？](./Git.md#6-如何查看分支提交的历史记录查看某个文件的历史记录呢)
+* [7. 能不能说一下git fetch和git pull命令之间的区别？](./Git.md#7-能不能说一下git-fetch和git-pull命令之间的区别)
+* [8. 使用过git merge和git rebase吗？它们之间有什么区别？](./Git.md#8-使用过git-merge和git-rebase吗它们之间有什么区别)
+* [9. 能说一下git系统中HEAD、工作树和索引之间的区别吗？](./Git.md#9-能说一下git系统中head工作树和索引之间的区别吗)
+* [10. 之前项目中是使用的GitFlow工作流程吗？它有什么好处？](./Git.md#10-之前项目中是使用的gitflow工作流程吗它有什么好处)
+* [11. 使用过git cherry-pick，有什么作用？](./Git.md#11-使用过git-cherry-pick有什么作用)
+* [12. git跟其他版本控制器有啥区别？](./Git.md#12-git跟其他版本控制器有啥区别)
+* [13.我们在本地工程常会修改一些配置文件，这些文件不需要被提交，而我们又不想每次执行git status时都让这些文件显示出来，我们该如何操作？](./Git.md#13我们在本地工程常会修改一些配置文件这些文件不需要被提交而我们又不想每次执行git-status时都让这些文件显示出来我们该如何操作)
+* [14. 如何把本地仓库的内容推向一个空的远程仓库？](./Git.md#14-如何把本地仓库的内容推向一个空的远程仓库)
+* [15.如在 Git 恢复先前的提交?](./Git.md#15如在-git-恢复先前的提交)
+* [16.什么是“git cherry-pick”?](./Git.md#16什么是git-cherry-pick)
 
-* [1.什么是Angular 7？与AngularJS有何不同？](./Angular.md#1什么是angular-7与angularjs有何不同)
-* [2.什么是Angular框架？](./Angular.md#2什么是angular框架)
-* [3.Angular 7中的结构指令和属性指令有什么区别？](./Angular.md#3angular-7中的结构指令和属性指令有什么区别)
-* [4.NgModule中的”声明”, “提供者”和”导入”之间有什么区别？](./Angular.md#4ngmodule中的声明-提供者和导入之间有什么区别)
-* [5.Angular的关键组件是什么？](./Angular.md#5angular的关键组件是什么)
-* [6.解释Angular的体系结构概述](./Angular.md#6解释angular的体系结构概述)
-* [7.如何将Angular 6更新为Angular 7？](./Angular.md#7如何将angular-6更新为angular-7)
-* [8.什么是angular material?](./Angular.md#8什么是angular-material)
-* [9. 什么是aot编译?](./Angular.md#9-什么是aot编译)
-* [10.什么是数据绑定？在Angular中有几种方式?](./Angular.md#10什么是数据绑定在angular中有几种方式)
-* [参考链接](./Angular.md#参考链接)
-
-
-## Ajax
-
-* [1.什么是ajax？ajax作用是什么？](./Ajax.md#1什么是ajaxajax作用是什么)
-* [2.为什么要用ajax：](./Ajax.md#2为什么要用ajax)
-* [3.AJAX最大的特点是什么。](./Ajax.md#3ajax最大的特点是什么)
-* [4.请介绍一下XMLHttprequest对象。](./Ajax.md#4请介绍一下xmlhttprequest对象)
-* [5.AJAX技术体系的组成部分有哪些。](./Ajax.md#5ajax技术体系的组成部分有哪些)
-* [6.工作当中会和后台交互吗？ 那你能说说封装好的 ajax里的几个参数吗 ？](./Ajax.md#6工作当中会和后台交互吗-那你能说说封装好的-ajax里的几个参数吗-)
-* [7.Ajax的实现流程是怎样的？](./Ajax.md#7ajax的实现流程是怎样的)
-* [8.AJAX请求总共有多少种CALLBACK](./Ajax.md#8ajax请求总共有多少种callback)
-* [9.AJAX有哪些有点和缺点？](./Ajax.md#9ajax有哪些有点和缺点)
-* [10.Ajax 解决浏览器缓存问题？](./Ajax.md#10ajax-解决浏览器缓存问题)
-* [参考链接](./Ajax.md#参考链接)
-
+# webpack
+* [1.webpack与grunt、gulp的不同？](./webpack.md#1webpack与gruntgulp的不同)
+* [2.与webpack类似的工具还有哪些？谈谈你为什么最终选择（或放弃）使用webpack？](./webpack.md#2与webpack类似的工具还有哪些谈谈你为什么最终选择或放弃使用webpack)
+* [3.有哪些常见的Loader？他们是解决什么问题的？](./webpack.md#3有哪些常见的loader他们是解决什么问题的)
+* [4.有哪些常见的Plugin？他们是解决什么问题的？](./webpack.md#4有哪些常见的plugin他们是解决什么问题的)
+* [5.Loader和Plugin的不同？](./webpack.md#5loader和plugin的不同)
+* [不同的作用](./webpack.md#不同的作用)
+* [不同的用法](./webpack.md#不同的用法)
+* [6.webpack的构建流程是什么?从读取配置到输出文件这个过程尽量说全](./webpack.md#6webpack的构建流程是什么从读取配置到输出文件这个过程尽量说全)
+* [7.是否写过Loader和Plugin？描述一下编写loader或plugin的思路？](./webpack.md#7是否写过loader和plugin描述一下编写loader或plugin的思路)
+* [8.webpack的热更新是如何做到的？说明其原理？](./webpack.md#8webpack的热更新是如何做到的说明其原理)
+* [原理：](./webpack.md#原理)
+* [9.如何利用webpack来优化前端性能？（提高性能和体验）](./webpack.md#9如何利用webpack来优化前端性能提高性能和体验)
+* [10.如何提高webpack的构建速度？](./webpack.md#10如何提高webpack的构建速度)
+* [11.怎么配置单页应用？怎么配置多页应用？](./webpack.md#11怎么配置单页应用怎么配置多页应用)
+* [12.npm打包时需要注意哪些？如何利用webpack来更好的构建？](./webpack.md#12npm打包时需要注意哪些如何利用webpack来更好的构建)
+* [13.如何在vue项目中实现按需加载？](./webpack.md#13如何在vue项目中实现按需加载)
+* [14.webpack是解决什么问题而生的?](./webpack.md#14webpack是解决什么问题而生的)
+* [15.如何配置多入口文件?](./webpack.md#15如何配置多入口文件)
+* [16.webpack中的模块解析规则](./webpack.md#16webpack中的模块解析规则)
+* [17.webpack中的模块解析规则具体实现](./webpack.md#17webpack中的模块解析规则具体实现)
+* [18.什么是模块热替换](./webpack.md#18什么是模块热替换)
 
 ## Glup_Grunt
 * [1.Grunt的特点](./Glup_Grunt.md#1grunt的特点)
@@ -316,6 +318,19 @@
 * [参考链接](./Glup_Grunt.md#参考链接)
 
 
+## Angular
+
+* [1.什么是Angular 7？与AngularJS有何不同？](./Angular.md#1什么是angular-7与angularjs有何不同)
+* [2.什么是Angular框架？](./Angular.md#2什么是angular框架)
+* [3.Angular 7中的结构指令和属性指令有什么区别？](./Angular.md#3angular-7中的结构指令和属性指令有什么区别)
+* [4.NgModule中的”声明”, “提供者”和”导入”之间有什么区别？](./Angular.md#4ngmodule中的声明-提供者和导入之间有什么区别)
+* [5.Angular的关键组件是什么？](./Angular.md#5angular的关键组件是什么)
+* [6.解释Angular的体系结构概述](./Angular.md#6解释angular的体系结构概述)
+* [7.如何将Angular 6更新为Angular 7？](./Angular.md#7如何将angular-6更新为angular-7)
+* [8.什么是angular material?](./Angular.md#8什么是angular-material)
+* [9. 什么是aot编译?](./Angular.md#9-什么是aot编译)
+* [10.什么是数据绑定？在Angular中有几种方式?](./Angular.md#10什么是数据绑定在angular中有几种方式)
+* [参考链接](./Angular.md#参考链接)
 
 ## Vue
 
@@ -365,24 +380,6 @@
 * [44.生命周期钩子的一些使用方法：](./Vue.md#44生命周期钩子的一些使用方法)
 * [45.开发中常用的指令有哪些?](./Vue.md#45开发中常用的指令有哪些)
 * [参考链接](./Vue.md#参考链接)
-
-## ES6
-
-* [1.es5和es6的区别，说一下你所知道的es6](./ES6.md#1es5和es6的区别说一下你所知道的es6)
-* [2.var、let、const之间的区别](./ES6.md#2varletconst之间的区别)
-* [3.使用箭头函数应注意什么？](./ES6.md#3使用箭头函数应注意什么)
-* [4.ES6的模板字符串有哪些新特性？并实现一个类模板字符串的功能](./ES6.md#4es6的模板字符串有哪些新特性并实现一个类模板字符串的功能)
-* [5.介绍下 Set、Map的区别？](./ES6.md#5介绍下-setmap的区别)
-* [6.ECMAScript 6 怎么写 class ，为何会出现 class？](./ES6.md#6ecmascript-6-怎么写-class-为何会出现-class)
-* [7.Promise构造函数是同步执行还是异步执行，那么 then 方法呢？](./ES6.md#7promise构造函数是同步执行还是异步执行那么-then-方法呢)
-  * [宏任务与微任务的执行顺序](./ES6.md#宏任务与微任务的执行顺序)
-* [8.setTimeout、Promise、Async/Await 的区别](./ES6.md#8settimeoutpromiseasyncawait-的区别)
-* [9.promise有几种状态，什么时候会进入catch？](./ES6.md#9promise有几种状态什么时候会进入catch)
-* [10.使用结构赋值，实现两个变量的值的交换](./ES6.md#10使用结构赋值实现两个变量的值的交换)
-* [11.Promise 中reject 和 catch 处理上有什么区别](./ES6.md#11promise-中reject-和-catch-处理上有什么区别)
-* [12.理解 async/await以及对Generator的优势](./ES6.md#12理解-asyncawait以及对generator的优势)
-* [参考资料](./ES6.md#参考资料)
-
 
 ## jQuery
 
